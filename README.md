@@ -33,7 +33,7 @@ motion (GBM) price processes.
 | File | Description |
 |------|-------------|
 | `Efficient Frontier.ipynb` | Section 2.1 — Markowitz (1952) mean–variance efficient frontier, derived and plotted from closed-form constants. |
-| `experiemnts_simulation.ipynb` | Chapter 3 — the three numerical experiments on the signal–strength map under GBM. |
+| `softmax_simulation.ipynb` | Chapter 3 — the three numerical experiments on the signal–strength map under GBM. |
 | `efficient_frontier.png` | Rendered efficient-frontier figure. |
 | `possible_experiments.pdf` | Design notes for the numerical experiments. |
 | `README.md` | This file. |
@@ -73,7 +73,7 @@ pip install numpy matplotlib jupyter
 jupyter notebook
 ```
 
-Then open `Efficient Frontier.ipynb` or `experiemnts_simulation.ipynb` and run
+Then open `Efficient Frontier.ipynb` or `softmax_simulation.ipynb` and run
 all cells. A fixed RNG seed (`np.random.default_rng(42)`) makes the simulation
 results reproducible.
 
