@@ -49,13 +49,18 @@ equal-weight baseline.
   utility. The curve is *non-monotone*: it rises, peaks at an interior optimal
   strength `β*`, then falls as concentration risk overtakes the gain from
   tilting.
-- **Experiment 3.2 — Signal quality.** Vary the signal noise $\sigma_\varepsilon$
-  (clean → noisy) and track `β*`. Noisier signals earn less and command a
-  smaller optimal strength, `β* → 0` as the signal becomes pure noise —
-  tracking a Bayesian shrinkage benchmark.
-- **Experiment 3.3 — Oracle vs noisy.** Overlay the oracle sweep
-  ($s_i = \mu_i$) against a noisy sweep, separating the *vertical* gap (utility
-  lost to noise) from the *horizontal* gap (pull-back of the optimal strength).
+- **Experiment 3.2 — Signal quality.** Vary the signal noise (clean → noisy)
+  and track `β*`. Noisier signals earn less and command a smaller optimal
+  strength, `β* → 0` as the signal becomes pure noise — tracking a Bayesian
+  shrinkage benchmark. Includes the clean-versus-noisy overlay separating the
+  *vertical* gap (utility lost to noise) from the *horizontal* gap (pull-back
+  of the optimal strength).
+- **Experiment 3.3 — Correlated assets.** Give the diffusion shocks a common
+  pairwise correlation `ρ` (equicorrelation) or a random 3-factor loading
+  structure with heterogeneous, partly negative correlations. Correlation destroys
+  the value of diversification (the baseline CE level falls) but not the value
+  of the signal: the concentration penalty scales with `1 − ρ`, so `β*` and the
+  peak ΔCE both *rise* with `ρ`.
 
 ## Requirements
 
