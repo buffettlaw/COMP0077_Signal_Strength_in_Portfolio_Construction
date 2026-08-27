@@ -74,7 +74,7 @@ The main simulations use $N=20$ assets, a one-year horizon, $30{,}000$ Monte-Car
 Portfolio performance is measured by
 
 $$
-\mathrm{CE}_{MV}(P)=\mathbb{E}[P]-\frac{\gamma}{2}\operatorname{Var}(P),
+\mathrm{CE}_{MV}(P)=\mathbb{E}[P]-\frac{\gamma}{2}\mathrm{Var}(P),
 $$
 
 and reported in basis points relative to equal weight. The combination map has a singular normaliser when $\boldsymbol{1}^{\top}\Sigma^{-1}\boldsymbol{s}$ approaches zero, so its experiments state an explicit retention rule and use common intersection samples for comparisons.
